@@ -1,9 +1,11 @@
 {
-  "name": "vivek9patel-portfolio",
+  "name": "siba-portfolio",
   "version": "2.0.0",
   "private": true,
-  "homepage": "https://vivek9patel.github.io/",
+  "homepage": "https://flawsom.github.io/ubuntu",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
